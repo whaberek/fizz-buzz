@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main should render layout 1`] = `
+<styled.div>
+  <Formik
+    enableReinitialize={false}
+    initialValues={
+      Object {
+        "number": 1,
+      }
+    }
+    isInitialValid={false}
+    onSubmit={[Function]}
+    validate={[Function]}
+    validateOnBlur={true}
+    validateOnChange={true}
+  >
+    <Form>
+      <FormikConnect(ErrorMessageImpl)
+        component="div"
+        name="number"
+      />
+      <FormikConnect(FieldInner)
+        component={[Function]}
+        name="number"
+        type="number"
+      />
+      <Button
+        label="Submit"
+        type="submit"
+      />
+    </Form>
+  </Formik>
+  <List
+    data={Array []}
+  />
+</styled.div>
+`;

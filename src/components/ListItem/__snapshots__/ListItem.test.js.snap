@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListItem should render layout with children 1`] = `
+<div>
+  foo
+</div>
+`;
+
+exports[`ListItem should render layout without children 1`] = `<div />`;

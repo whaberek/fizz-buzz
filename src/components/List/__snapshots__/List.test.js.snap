@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List should render layout 1`] = `
+<Fragment>
+  <Button
+    label="Previous"
+    onClick={[Function]}
+    type="button"
+  />
+  <Button
+    label="Next"
+    onClick={[Function]}
+    type="button"
+  />
+  <ListItem
+    key="foo_0"
+  >
+    <styled.span>
+      foo
+    </styled.span>
+  </ListItem>
+  <ListItem
+    key="bar_1"
+  >
+    <styled.span>
+      bar
+    </styled.span>
+  </ListItem>
+  <ListItem
+    key="baz_2"
+  >
+    <styled.span>
+      baz
+    </styled.span>
+  </ListItem>
+</Fragment>
+`;
